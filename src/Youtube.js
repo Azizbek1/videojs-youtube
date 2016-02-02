@@ -550,7 +550,7 @@ THE SOFTWARE. */
     return (e.type === 'video/youtube');
   };
 
-  var _isOnMobile = /(iPad|iPhone|iPod|Android)/g.test(navigator.userAgent);
+  var _isOnMobile = true;
 
   Youtube.parseUrl = function(url) {
     var result = {
